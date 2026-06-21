@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner prabha = new Scanner(System.in);
+        int a =prabha.nextInt();
+        int b = prabha.nextInt();
+        System.out.print(a);
+        System.out.print(b);
+        
+    }
+}
+
+
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner prabha = new Scanner(System.in);
+        String b = prabha.nextLine();
+        System.out.print(b);
+        
+    }
+}
