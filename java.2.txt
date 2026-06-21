@@ -1,0 +1,21 @@
+class Main{
+    public static void main(String[] args){
+        int a = 10;
+        int b = 30;
+        int c = 40;
+        System.out.print(a+b+c);
+    }
+}
+
+
+
+
+class Main{
+    public static void main(String[] args){
+        int a = 10;
+        String container = "fish";
+        System.out.println(a);
+        System.out.print(container);
+        
+    }
+}
