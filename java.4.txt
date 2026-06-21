@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine();
+        int age = scan.nextInt();
+        System.out.print("\nMy name is "+name);
+        System.out.print("\nmy age is "+age);
+        
+    }
+}
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine();
+        int age = scan.nextInt();
+        scan.nextLine();
+        String address = scan.nextLine();
+        System.out.print("My name is "+name);
+        System.out.print("\nmy age is "+age);
+        System.out.println("\nmy department is "+address);
+        
+    }
+}
