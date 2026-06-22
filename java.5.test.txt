@@ -1,0 +1,37 @@
+public class Main{
+    public static void main(String[] args){
+    int mark = 35;
+    if(mark>=35){
+        System.out.print("pass");
+   }
+   else{
+       System.out.print("fail") ;
+   }
+}
+}
+
+
+
+
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the income :");
+        int income = scan.nextInt();
+        
+        if(income > 7000){
+            System.out.print("schorship available");
+        }
+        else{
+            System.out.print("not available");
+        }
+    }
+}
+
+
+
+
+
+
