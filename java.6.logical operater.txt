@@ -1,0 +1,71 @@
+class Main{
+    public static void main(String[] args){
+        boolean hungry = true;
+        boolean icecream = true;
+        if (hungry && icecream){
+            System.out.print("eat");
+        }
+        else{
+             System.out.print(" don't eat");
+
+        }
+    }
+}
+
+
+
+class Main{
+    public static void main(String[] args){
+        boolean circket= true;
+        boolean football= false;
+        if (circket || football){
+            System.out.print("play");
+        }
+        else{
+             System.out.print(" don't play");
+
+        }
+    }
+}
+    
+
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the num :");
+        int num = scan.nextInt();
+        if(num%3 == 0 && num%5 == 0){
+            System.out.print("yes");
+        }
+        else{
+            System.out.print("no");
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the num :");
+        int num = scan.nextInt();
+        if(num%2 == 0 ){
+            System.out.print("even");
+        }
+        else{
+            System.out.print("odd");
+        }
+        
+        
+    }
+}
+    
