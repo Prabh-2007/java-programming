@@ -1,0 +1,96 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter your score :");
+        int score = scan.nextInt();
+        if(score<50){
+            System.out.print("you need to improve");
+        }
+        else if(score>=50 && score<=70){
+            System.out.print("Good job");
+        }
+        else{
+            System.out.print("Excellent performance");
+        }
+        
+    }
+}
+
+
+
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int mark1 = scan.nextInt();
+        int mark2 = scan.nextInt();
+        int mark3 = scan.nextInt();
+        int mark4 = scan.nextInt();
+        int mark5 = scan.nextInt();
+        int average = mark1+mark2+mark3+mark4+mark5/5;
+        if(average<35){
+            System.out.print("you need extra study");
+        }
+        else{
+            System.out.print("you go");
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the traffic color");
+        String color = scan.nextLine();
+        if(color.equals("red")){
+            System.out.print("stop");
+        }
+        else if(color.equals("yellow")){
+            System.out.print("ready to go");
+        }
+        else if(color.equals("green")){
+            System.out.print("go");
+        }
+        else{
+            System.out.print("error");
+        }
+    }
+}
+
+
+
+
+
+
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int salary = scan.nextInt();
+        int age = scan.nextInt();
+        if(salary>=200000 || age<=25){
+            System.out.print("your eligible");
+            int loan = scan.nextInt();
+            if(loan<=500000){
+                System.out.print("loan is available");
+            }
+            else{
+                System.out.print("loan not available");
+            }
+        }
+        else{
+            System.out.print("not eligible");
+        }
+    }
+}
