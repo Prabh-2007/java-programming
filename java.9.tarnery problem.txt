@@ -1,0 +1,30 @@
+
+A ternary operator is a conditional operator used to choose one value from two values based on a condition.
+
+It is a shorter form of an if-else statement.
+
+
+
+
+
+class Main{
+    public static void main(String[] args){
+        boolean rain = true;
+        
+        String result = rain?"taken umbrella":"enjoy sunlight";
+        System.out.print(result);
+    }
+}
+
+
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int result = (a>b)?a:b;
+        System.out.print(result);
+    }
+}
