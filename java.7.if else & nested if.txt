@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the mark");
+        int mark = scan.nextInt();
+        
+        if (mark>30 && mark<60){
+            System.out.print("video game");
+        }
+        else if(mark>60 && mark<90){
+            System.out.print("iphone");
+        }
+        else if(mark>=90){
+            System.out.print("macbook pro");
+        }
+        else{
+            System.out.print("nothing");
+        }
+    }
+}
+
+
+
+
+
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        boolean kfc = true;
+        boolean chicken = true;
+        boolean pepsi = true;
+        if(kfc){
+            System.out.print("go kfc");
+            if(chicken){
+                System.out.print("\neat chicken");
+                if(pepsi){
+                    System.out.print("\npepsi");
+                }
+            }
+        }
+    }
+}
