@@ -1,0 +1,39 @@
+public class Hotel{
+    int coffee = 20;
+    int tea = 10;
+    public static void main(String[] args){
+        Hotel server1 = new Hotel();
+        System.out.println(server1.coffee);
+        Hotel server2 = new Hotel();
+        System.out.println(server2.tea);
+    }
+}
+
+o/p
+20
+10
+
+
+public class laptop{
+    String name = "";
+    String proc = "";
+    int price =0;
+    int ram =0;
+    public static void main(String[] args){
+        laptop lap1 = new laptop();
+        lap1.name = "lenova";
+        lap1.proc = "good";
+        lap1.price = 50000;
+        lap1.ram = 6;
+        laptop lap2 = new laptop();
+        lap2.name = "dell";
+        lap2.proc = "low";
+        lap2.price = 80000;
+        lap2.ram = 7;
+        System.out.print(lap2.price);
+        laptop lap3 = new laptop();
+        System.out.println(lap3.price);;
+        
+    }
+    
+}
