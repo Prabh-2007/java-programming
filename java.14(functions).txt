@@ -1,0 +1,87 @@
+public class demo{
+    void greeding(){
+        System.out.print("Vanakkam");
+    }
+    void dummy(){
+        System.out.println("i am dummy");
+    }
+    public static void main(String[] args){
+        demo obj1 = new demo();
+        obj1.greeding();
+        
+    }
+}
+
+
+o/p
+Vanakkam
+
+----------------------------------------------------------------------------
+public class Mobile {
+    void iphone() {
+        System.out.println("This is iPhone");
+    }
+    void realme() {
+        System.out.println("This is Realme");
+    }
+    void oppo() {
+        System.out.println("This is Oppo");
+    }
+    void samsung() {
+        System.out.println("This is Samsung");
+    }
+    public static void main(String[] args) {
+        Mobile mob1 = new Mobile();
+        mob1.iphone();
+        mob1.realme();
+        mob1.oppo();
+        mob1.samsung();
+    }
+}
+
+
+
+o/p
+This is iPhone
+This is Realme
+This is Oppo
+This is Samsung
+
+----------------------------------------------------------------------------------------
+public class addition{
+    int a = 10;
+    int b = 30;
+    void sum(){
+        System.out.print(a+b);
+    }
+    public static void main(String[] args){
+        addition obj1 = new addition();
+        obj1.sum();
+    }
+}
+
+
+
+o/p
+
+40
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+public class garden{
+    int price = 20;
+    int count = 5;
+    void total_money(){
+        System.out.print(price*count);
+    }
+    public static void main(String[] atgs){
+        garden obj1 = new garden();
+        obj1.total_money();
+    }
+}
+
+
+o/p
+100
