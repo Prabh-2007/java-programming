@@ -1,0 +1,20 @@
+public class store{
+    void sum(int num1,int num2){
+        System.out.println(num1+num2);
+        System.out.println(num1-num2);
+        System.out.println(num1*num2);
+        System.out.println(num1/num2);
+
+    }
+    public static void main(String[] args){
+        store obj1 = new store();
+        obj1.sum(10,2);
+    }
+}
+
+o/p
+12
+8
+20
+5
+
