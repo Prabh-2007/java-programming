@@ -1,0 +1,48 @@
+public class store {
+    int main(int money) {
+        int soapprice = 18;
+        int rem = 2;
+        return rem;
+    }
+    public static void main(String[] args) {
+        store obj1 = new store();
+        int reminder = obj1.main(20);
+        System.out.println(reminder);
+    }
+}
+
+o/p
+2
+--------------------------------------------------------------------------------------
+public class store {
+    int sum(int a,int b) {
+        int c = a+b;
+        return c;
+    }
+    public static void main(String[] args) {
+        store obj1 = new store();
+        int sum = obj1.sum(10,20);
+        System.out.println(sum);
+    }
+}
+
+
+o/p
+30
+------------------------------------------------------------------------------------------------
+
+public class store {
+    String  getname(){
+        return "Prabhavathi";
+    }
+   
+    public static void main(String[] args) {
+        store obj1 = new store();
+        String name = obj1.getname();
+        System.out.println(name);
+    }
+}
+
+o/p
+PRABHAVATHI
+-------------------------------------------------------------------------------------------------
