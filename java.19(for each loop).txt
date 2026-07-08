@@ -1,0 +1,29 @@
+public class Demo {
+    public static void main(String[] args) {
+        int[] arr = {10, 20, 30, 40};
+
+        for (int num : arr) {
+            System.out.println(num);
+        }
+    }
+}
+
+o/p
+10
+20
+30
+40
+--------------------------------------------------------------------
+public class Demo {
+    public static void main(String[] args) {
+        String[] arr = {"prabha","mirudhula"};
+        for (String num : arr) {
+            System.out.println(num);
+        }
+    }
+}
+
+o/p
+prabha
+mirudhula
+--------------------------------------------------------------------------
