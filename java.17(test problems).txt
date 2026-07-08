@@ -1,0 +1,52 @@
+import java.util.Scanner;
+public class find{
+    void evenorodd(int num){
+        if(num%2 == 0){
+            System.out.print("even number");
+        }
+        else{
+            System.out.print("odd number");
+        }
+        
+    }
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        find obj1 = new find();
+        obj1.evenorodd(number);
+        
+    }
+}
+
+o/p 
+10
+even number
+--------------------------------------------------------------------------------
+import java.util.Scanner;
+public class School{
+    String passorfail(int score){
+        if(score<35){
+            return "fail";
+        }
+        else{
+            return "pass";
+        }
+        
+    }
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int mark = scan.nextInt();
+        School obj1 = new School();
+        String result = obj1.passorfail(mark);
+        System.out.println(result);
+        
+    }
+}
+
+
+
+o/p
+
+45
+pass
+--------------------------------------------------------------------------------
