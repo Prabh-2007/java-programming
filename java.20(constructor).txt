@@ -1,0 +1,41 @@
+public class Student {
+    Student() {
+        System.out.println("Constructor is called");
+    }
+
+    public static void main(String[] args) {
+        Student obj = new Student();
+    }
+}
+
+o/p
+Constructor is called
+----------------------------------------------------------------------------
+public class Student {
+    String name;
+    int age;
+
+    Student() {
+        name = "Prabhavathi";
+        age = 19;
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+
+    public static void main(String[] args) {
+        Student obj = new Student();
+        obj.display();
+    }
+}
+
+
+
+
+
+o/p
+
+Name: Prabhavathi
+Age: 19
