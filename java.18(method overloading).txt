@@ -1,0 +1,61 @@
+public class Sum{
+    void add(int a,int b){
+        System.out.println(a+b);
+    }
+    void add(int a,int b,int c){
+        System.out.println(a+b+c);
+    }
+    public static void main(String[] args){
+        Sum obj = new Sum();
+        obj.add(20,30);
+        obj.add(20,30,60);
+    }
+}
+
+
+
+o/p
+50
+110
+------------------------------------------------------------------------
+public class Multiply {
+    void multiply(int a, int b) {
+        System.out.println(a * b);
+    }
+
+    void multiply(int a, int b, int c) {
+        System.out.println(a * b * c);
+    }
+
+    public static void main(String[] args) {
+        Multiply obj = new Multiply();
+        obj.multiply(2, 3);
+        obj.multiply(2, 3, 4);
+    }
+}
+
+
+
+o/p
+6
+24
+-------------------------------------------------------------------------------
+public class Area {
+    void area(int side) {
+        System.out.println(side * side);
+    }
+
+    void area(int length, int breadth) {
+        System.out.println(length * breadth);
+    }
+
+    public static void main(String[] args) {
+        Area obj = new Area();
+        obj.area(5);
+        obj.area(10, 4);
+    }
+}
+
+o/p
+25
+40
