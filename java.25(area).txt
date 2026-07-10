@@ -1,0 +1,13 @@
+public class Rectangle {
+    int area(int l, int b) {
+        return l * b;
+    }
+
+    public static void main(String[] args) {
+        Rectangle obj = new Rectangle();
+        System.out.println("Area = " + obj.area(5, 4));
+    }
+}
+
+o/p
+Area = 20
