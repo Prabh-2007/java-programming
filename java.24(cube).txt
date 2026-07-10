@@ -1,0 +1,13 @@
+public class Cube {
+    int cube(int n) {
+        return n * n * n;
+    }
+
+    public static void main(String[] args) {
+        Cube obj = new Cube();
+        System.out.println("Cube = " + obj.cube(3));
+    }
+}
+
+o/p
+Cube = 27
