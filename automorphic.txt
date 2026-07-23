@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Main {
+
+    void automorphic(int n) {
+
+        int square = n * n;
+
+        if (square % 10 == n % 10)
+            System.out.println("Automorphic Number");
+        else
+            System.out.println("Not Automorphic Number");
+    }
+
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        Main obj = new Main();
+        obj.automorphic(n);
+    }
+}
