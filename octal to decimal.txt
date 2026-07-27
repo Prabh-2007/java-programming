@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class OctalToDecimal {
+    static int OctalToDecimal(int octal) {
+        int decimal = 0;
+        int place = 1;
+        while (octal > 0) {
+            int r = octal % 10;
+            decimal = decimal + r * place;
+            place = place * 8;
+            octal = octal / 10;
+        }
+        return decimal;
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int octal = sc.nextInt();
+        System.out.print(OctalToDecimal(octal));
+    }
+}
