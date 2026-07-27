@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Main {
+    static int BinaryToDecimal(int binary) {
+        int decimal = 0;
+        int place = 1;
+        while (binary > 0) {
+            int r = binary % 10;
+            decimal = decimal + r * place;
+            place = place * 2;
+            binary = binary / 10;
+        }
+        return decimal;
+    }
+    static int DecimalToOctal(int decimal) {
+        int octal = 0;
+        int place = 1;
+        while (decimal > 0) {
+            int r = decimal % 8;
+            octal = octal + r * place;
+            place = place * 10;
+            decimal = decimal / 8;
+        }
+        return octal;
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int binary = sc.nextInt();
+        int decimal = BinaryToDecimal(binary);
+        int octal = DecimalToOctal(decimal);
+        System.out.print(octal);
+    }
+}
