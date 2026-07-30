@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main{
+    void remove(int digit,int num){
+        int result = 0;
+        int place = 1;
+        while(num>0){
+            int rem = num%10;
+            if(rem!=digit){
+                result = result+rem*place;
+                place = place*10;
+            }
+            num = num/10;
+        }
+        System.out.print(result);
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int digit = sc.nextInt();
+        Main obj = new Main();
+        obj.remove(digit,num);
+        
+    }
+}
